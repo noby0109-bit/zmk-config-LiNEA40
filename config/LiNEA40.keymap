@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <locale/keys_ja.h>
 
 #define MOUSE 1
 #define MARK 2
@@ -137,9 +138,9 @@
 
         MARK {
             bindings = <
-&kp SLASH          &kp LS(DOLLAR)    &kp LS(NUMBER_2)  &kp LS(N5)  &kp LS(NUMBER_3)                    &kp MINUS      &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)      &kp LESS_THAN     &kp GREATER_THAN
-&kp LS(BACKSLASH)  &kp LS(NUMBER_6)  &kp LS(N7)        &kp EXCL    &kp QUESTION                        &kp LS(MINUS)  &kp LS(N8)            &kp LS(RIGHT_PARENTHESIS)  &kp SEMICOLON     &kp COLON
-&trans             &trans            &trans            &trans      &trans                              &kp TILDE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET          &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&kp JA_YEN         &kp LS(NUMBER_4)  &kp JA_AT    &kp LS(NUNBER_5)  &kp LS(NUMBER_3)                    &kp JA_MINUS      &kp JA_LBRC  &kp JA_RBRC     &kp LESS_THAN     &kp GREATER_THAN
+&kp JA_PIPE        &kp JA_CARET      &kp LS(N7)        &kp EXCL    &kp QUESTION                        &kp JA_UNDER       &kp LS(N8)            &kp LS(NUMABER_9)  &kp JA_SEMICOLON     &kp JA_COLON
+&trans             &trans            &trans            &trans      &trans                              &kp JA_TILDE      &kp JA_LBKT      &kp JA_RBKT         &kp LS(N7)  &kp LS(N2)
 &kp ESC            &trans            &trans            &trans      &trans            &trans    &trans  &trans                               &trans                     &trans            &trans
             >;
 
