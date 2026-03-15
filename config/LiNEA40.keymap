@@ -137,9 +137,9 @@
 
         MARK {
             bindings = <
-&kp JV_YEN         &kp JV_DOLLAR     &kp JV_AT         &kp LS(N5)  &kp LS(N3)                          &kp JV_MINUS   &kp JV_LBRC           &kp JV_RBRC                &kp LESS_THAN     &kp GREATER_THAN
-&kp JV_PIPE        &kp JV_CARAT      &kp LS(N6)        &kp LS(N1)  &kp QUESTION                        &kp JV_UNDER   &kp LS(N8)            &kp LS(N9)                 &kp JV_SEMI       &kp JV_COLON
-&kp JV_BSLH        &trans            &trans            &trans      &trans                              &kp JV_TILDE   &kp JV_LBKT           &kp JV_RBKT                &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&kp 0x89           &kp LS(N4)        &kp 0x2F          &kp LS(N5)  &kp LS(N3)                          &kp MINUS　　   &kp LS(LBKT)          &kp LS(RBKT)               &kp LESS_THAN     &kp GREATER_THAN
+&kp LS(0x89)       &kp 0x2E          &kp LS(N6)        &kp LS(N1)  &kp QUESTION                        &kp 0x87       &kp LS(N8)            &kp LS(N9)                 &kp 0x33          &kp 0x34
+&kp LS(0x89)       &trans            &trans            &trans      &trans                              &kp LS(EQUAL)  &kp 0x30  　    　     &kp 0x31                   &kp LS(N7)        &kp LS(N2)
 &kp ESC            &trans            &trans            &trans      &trans            &trans    &trans  &trans                               &trans                     &trans            &trans
             >;
 
@@ -150,10 +150,10 @@
 
         CURSOR {
             bindings = <
-&kp TAB      &kp N7  &kp N8      &kp N9  &kp JV_SLASH                                 &trans       &kp HOME            &kp UP_ARROW    &kp END              &trans
-&kp LS(TAB)  &kp N4  &kp N5      &kp N6  &kp LS(JV_COLON)                             &kp PAGE_UP  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
-&none        &kp N1  &kp N2      &kp N3  &kp JV_MINUS                                 &none        &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &trans
-&kp ESCAPE   &kp N0  &kp PERIOD  &trans  &kp LS(JV_SEMI)  &kp LS(JV_MINUS)    &trans  &trans                           &trans          &trans               &kp DEL
+&kp TAB      &kp N7  &kp N8      &kp N9  &kp SLASH                               &trans       &kp HOME            &kp UP_ARROW    &kp END              &trans
+&kp LS(TAB)  &kp N4  &kp N5      &kp N6  &kp LS(SEMI)                            &kp PAGE_UP  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
+&none        &kp N1  &kp N2      &kp N3  &kp MINUS                               &none        &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &trans
+&kp ESCAPE   &kp N0  &kp PERIOD  &trans  &kp LS(EQUAL)  &kp LS(MINUS)    &trans  &trans                           &trans          &trans               &kp DEL
             >;
         };
 
