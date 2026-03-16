@@ -142,7 +142,7 @@
            bindings = <
 &kp JP_YEN     &kp LS(N4)  &kp LBKT    &kp LS(N5)  &kp LS(N3)                   &kp MINUS              &kp LS(LBKT)   &kp LS(RBKT)      &kp LS(COMMA)    &kp LS(DOT)
 &kp JP_PIPE    &kp EQUAL   &kp LS(N6)  &kp LS(N1)  &kp QMARK                    &kp JP_UNDERSCORE      &kp LS(N8)     &kp LS(N9)        &kp SEMI         &kp COLON
-&kp LS(YEN)    &trans      &trans      &trans      &trans                       &kp LS(EQUAL)          &kp RBKT       &kp NON_US_HASH   &kp LS(N7)       &kp LS(N2)
+&kp LS(JP_YEN)    &trans      &trans      &trans      &trans                       &kp LS(EQUAL)          &kp RBKT       &kp NON_US_HASH   &kp LS(N7)       &kp LS(N2)
 &kp ESC        &trans      &trans      &trans      &trans      &trans   &trans  &trans                                &trans            &trans           &trans
            >;
 
