@@ -136,12 +136,12 @@
         //2
 
         MARK {
-            bindings = <
-&kp 0x89           &kp LS(N4)        &kp 0x2F          &kp LS(N5)  &kp LS(N3)                          &kp MINUS　　   &kp LS(LBKT)          &kp LS(RBKT)               &kp LESS_THAN     &kp GREATER_THAN
-&kp LS(0x89)       &kp 0x2E          &kp LS(N6)        &kp LS(N1)  &kp QUESTION                        &kp 0x87       &kp LS(N8)            &kp LS(N9)                 &kp 0x33          &kp 0x34
-&kp LS(0x89)       &trans            &trans            &trans      &trans                              &kp LS(EQUAL)  &kp 0x30  　    　     &kp 0x31                   &kp LS(N7)        &kp LS(N2)
-&kp ESC            &trans            &trans            &trans      &trans            &trans    &trans  &trans                               &trans                     &trans            &trans
-            >;
+           bindings = <
+&kp YEN     &kp LS(N4)  &kp LBKT    &kp LS(N5)  &kp LS(N3)              &kp MINUS   &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(COMMA)  &kp LS(DOT)
+&kp LS(YEN) &kp EQUAL   &kp LS(N6)  &kp LS(N1)  &kp QMARK               &kp UNDER   &kp LS(N8)    &kp LS(N9)    &kp SEMI       &kp COLON
+&kp LS(YEN) &trans      &trans      &trans      &trans                  &kp LS(EQUAL) &kp RBKT    &kp NON_US_HASH &kp LS(N7)    &kp LS(N2)
+&kp ESC     &trans      &trans      &trans      &trans      &trans &trans &trans    &trans        &trans        &trans
+           >;
 
             sensor-bindings = <&re_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
