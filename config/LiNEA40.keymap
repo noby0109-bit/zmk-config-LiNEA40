@@ -14,6 +14,9 @@
 #define FUNCTION 4
 #define SCROLL 5
 #define WIRELESS 6
+#define JP_YEN     0x89
+#define JP_PIPE    LS(0x89)
+#define JP_UNDERSCORE LS(0x87)
 
 //mouse cursol
 
@@ -137,10 +140,10 @@
 
         MARK {
            bindings = <
-&kp YEN     &kp LS(N4)  &kp LBKT    &kp LS(N5)  &kp LS(N3)              &kp MINUS   &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(COMMA)  &kp LS(DOT)
-&kp LS(YEN) &kp EQUAL   &kp LS(N6)  &kp LS(N1)  &kp QMARK               &kp UNDER   &kp LS(N8)    &kp LS(N9)    &kp SEMI       &kp COLON
-&kp LS(YEN) &trans      &trans      &trans      &trans                  &kp LS(EQUAL) &kp RBKT    &kp NON_US_HASH &kp LS(N7)    &kp LS(N2)
-&kp ESC     &trans      &trans      &trans      &trans      &trans &trans &trans    &trans        &trans        &trans
+&kp JP_YEN     &kp LS(N4)  &kp LBKT    &kp LS(N5)  &kp LS(N3)                   &kp MINUS              &kp LS(LBKT)   &kp LS(RBKT)      &kp LS(COMMA)    &kp LS(DOT)
+&kp JP_PIPE    &kp EQUAL   &kp LS(N6)  &kp LS(N1)  &kp QMARK                    &kp JP_UNDERSCORE      &kp LS(N8)     &kp LS(N9)        &kp SEMI         &kp COLON
+&kp LS(YEN)    &trans      &trans      &trans      &trans                       &kp LS(EQUAL)          &kp RBKT       &kp NON_US_HASH   &kp LS(N7)       &kp LS(N2)
+&kp ESC        &trans      &trans      &trans      &trans      &trans   &trans  &trans                                &trans            &trans           &trans
            >;
 
             sensor-bindings = <&re_kp C_VOLUME_DOWN C_VOLUME_UP>;
